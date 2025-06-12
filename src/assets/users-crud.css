@@ -1,0 +1,69 @@
+.crud-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 2rem;
+}
+h1 {
+  text-align: center;
+  color: #42b983;
+  margin-bottom: 1.5rem;
+}
+form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+button {
+  background: #42b983;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #369870;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  background: #f9f9f9;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+li > div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+@media (max-width: 600px) {
+  .crud-container {
+    padding: 1rem;
+  }
+  form {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  li > div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
+
