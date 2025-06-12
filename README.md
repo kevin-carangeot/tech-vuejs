@@ -10,10 +10,8 @@ Create a user edit modal by clicking Edit button in the list. The user data to e
 - A Pinia store (userStore) already exists but is unused.
 
 ## What to do
-1. ** Feel free to refactor the code as you wish.**
-   - You can add new components, modify existing ones, or change the structure.
-   - The goal is to create a user-friendly and maintainable codebase.
-2. **Create a user edit modal**
+**Feel free to refactor the code as you wish.**
+1. **Create a user edit modal**
    - When clicking "Edit", the modal should open with pre-filled fields.
    - The data to edit must be retrieved from the Pinia store.
    - Closing the modal must reset the store.
