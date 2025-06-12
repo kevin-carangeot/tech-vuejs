@@ -26,15 +26,14 @@ Create a user edit modal by clicking Edit button in the list. The user data to e
    - Show error messages if the API fails.
    - Handle modal closing (button or outside click).
 
-
 ## Bonus
-- Modal open/close animation.
+- Add unit tests.
 - Refactor to make the modal reusable.
+- 3-columns responsive user card display.
 
 ## Getting started
 - Install dependencies: `npm install`
 - Start the project: `npm run dev` or with Docker Compose
-
 
 ```bash
 docker-compose up --build
