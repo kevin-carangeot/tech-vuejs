@@ -5,7 +5,7 @@ Create a user edit modal by clicking Edit button in the list. The user data to e
 
 ## Context
 - The project uses Vue 3 (Composition API) and Pinia for state management.
-- CRUD operations are performed on the public API https://dummyjson.com/users.
+- CRUD operations are performed on the public API https://dummyjson.com/docs/users.
 - The UsersCrud.vue component displays the user list and allows creation/deletion.
 - A Pinia store (userStore) already exists but is unused.
 
@@ -18,7 +18,11 @@ Create a user edit modal by clicking Edit button in the list. The user data to e
 2. **Update the user**
    - On validation, call the API (PUT) to save the changes.
    - Update the user list in UsersCrud.vue after editing.
-3. **Polish the user experience**
+3. **Create a searchbar**
+   - Add a search bar to filter users by name.
+   - The search should be case-insensitive and update the displayed list in real-time.
+   - Use the Pinia store to manage the search state.
+4. **Polish the user experience**
    - Show error messages if the API fails.
    - Handle modal closing (button or outside click).
 
